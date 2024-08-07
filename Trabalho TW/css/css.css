@@ -1,0 +1,43 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+#aa {
+    background-color: #8f148f;
+    height: 14vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 127px;
+        height: 128px;
+        position: relative;
+        top: 0px;
+        margin-left: 0%;
+
+    }
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    font-size: 120%;
+}
+
+.navbar li {
+    padding: 0 2rem;
+    margin: 0.4rem;
+    transition: 0.3s;
+    color: white;
+    border: 2px grey solid;
+    border-radius: 10px;
+    background-color: grey;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+}
